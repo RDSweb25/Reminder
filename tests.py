@@ -4,7 +4,7 @@ import pytest
 import datetime as dt
 
 def test_overdue():
-    assert not app._overdue(none)
+    assert not app._overdue(None)
 
 
 def test_to_date():
